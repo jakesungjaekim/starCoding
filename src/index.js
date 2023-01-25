@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-
 // 연결된 컴포넌트
-import AppUseState2 from './useState/AppUseState2';
+import AppUseContext from './useContext/AppUseContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppUseState2 />
+    <AppUseContext />
   </React.StrictMode>
 );
 
